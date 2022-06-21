@@ -15,15 +15,15 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <SolidColorBrush x:Key="Button.Static.Background" Color="Red"/>
-        <SolidColorBrush x:Key="Button.Static.Border" Color="Red"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="Red"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="Red"/>
-        <SolidColorBrush x:Key="Button.Pressed.Background" Color="Red"/>
-        <SolidColorBrush x:Key="Button.Pressed.Border" Color="Red"/>
-        <SolidColorBrush x:Key="Button.Disabled.Background" Color="Red"/>
-        <SolidColorBrush x:Key="Button.Disabled.Border" Color="Red"/>
-        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="Red"/>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFFF6D6D"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FFFF6D6D"/>
         <Style x:Key="ButtonRoundedClose" TargetType="{x:Type Button}">
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
             <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
@@ -70,15 +70,15 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <SolidColorBrush x:Key="Button.Static.Background1" Color="#FFDDDDDD"/>
-        <SolidColorBrush x:Key="Button.Static.Border1" Color="#FF707070"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Background1" Color="#FFBEE6FD"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Border1" Color="#FF3C7FB1"/>
-        <SolidColorBrush x:Key="Button.Pressed.Background1" Color="#FFC4E5F6"/>
-        <SolidColorBrush x:Key="Button.Pressed.Border1" Color="#FF2C628B"/>
-        <SolidColorBrush x:Key="Button.Disabled.Background1" Color="#FFF4F4F4"/>
-        <SolidColorBrush x:Key="Button.Disabled.Border1" Color="#FFADB2B5"/>
-        <SolidColorBrush x:Key="Button.Disabled.Foreground1" Color="#FF838383"/>
+        <SolidColorBrush x:Key="Button.Static.Background1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.Static.Border1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border1" Color="#FF2D2D2D"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground1" Color="#FF2D2D2D"/>
         <Style x:Key="LoadButtonRound" TargetType="{x:Type Button}">
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual1}"/>
             <Setter Property="Background" Value="{StaticResource Button.Static.Background1}"/>
@@ -125,15 +125,15 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <SolidColorBrush x:Key="Button.Static.Background2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.Static.Border2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Background2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Border2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.Pressed.Background2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.Pressed.Border2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.Disabled.Background2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.Disabled.Border2" Color="#757575"/>
-        <SolidColorBrush x:Key="Button.Disabled.Foreground2" Color="#757575"/>
+        <SolidColorBrush x:Key="Button.Static.Background2" Color="White"/>
+        <SolidColorBrush x:Key="Button.Static.Border2" Color="White"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background2" Color="White"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border2" Color="White"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background2" Color="White"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border2" Color="White"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background2" Color="White"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border2" Color="White"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground2" Color="White"/>
         <Style x:Key="ButtonRoundedСollapse" TargetType="{x:Type Button}">
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual2}"/>
             <Setter Property="Background" Value="{StaticResource Button.Static.Background2}"/>
@@ -180,7 +180,6 @@
         <Button Style="{DynamicResource ButtonRoundedClose}" Content="" Margin="296,10,7,0" VerticalAlignment="Top" RenderTransformOrigin="0.219,-0.768" Width="12" Height="11" Background="#FFFF6D6D" Click="Close_Button" BorderBrush="#00000000" Foreground="White" BorderThickness="0,0,0,0" />
         <Button Style="{DynamicResource LoadButtonRound}" Content="Load Oreo" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.495" Width="185" Height="30" Background="#FF2D2D2D" FontSize="16" Click="Load_Button" FontFamily="Arial" BorderThickness="0,0,0,0" BorderBrush="White" Foreground="White"/>
         <Button Style="{DynamicResource ButtonRoundedСollapse}" Content="" HorizontalAlignment="Left" Margin="279,10,0,0" VerticalAlignment="Top" Width="12" Height="11" Background="White" Click="Сollapse_Button" RenderTransformOrigin="-2.027,1.681" BorderThickness="0,0,0,0"/>
-        <Image HorizontalAlignment="Center" Height="286" VerticalAlignment="Top" Width="288" Source="https://oukilove.github.io/assets/loader/background.png" Stretch="Fill" RenderTransformOrigin="0.498,0.461" Margin="0,43,0,0" Opacity="0.8"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="  Oreo || Free cheat" VerticalAlignment="Top" Width="144" Height="21" Foreground="White" Margin="0,5,0,0" FontSize="14"/>
     </Grid>
 </Window>
