@@ -180,6 +180,6 @@
         <Button Style="{DynamicResource ButtonRoundedClose}" Content="" Margin="296,10,7,0" VerticalAlignment="Top" RenderTransformOrigin="0.219,-0.768" Width="12" Height="11" Background="#FFFF6D6D" Click="Close_Button" BorderBrush="#00000000" Foreground="White" BorderThickness="0,0,0,0" />
         <Button Style="{DynamicResource LoadButtonRound}" Content="Load Oreo" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.495" Width="185" Height="30" Background="#FF2D2D2D" FontSize="16" Click="Load_Button" FontFamily="Arial" BorderThickness="0,0,0,0" BorderBrush="White" Foreground="White"/>
         <Button Style="{DynamicResource ButtonRoundedСollapse}" Content="" HorizontalAlignment="Left" Margin="279,10,0,0" VerticalAlignment="Top" Width="12" Height="11" Background="White" Click="Сollapse_Button" RenderTransformOrigin="-2.027,1.681" BorderThickness="0,0,0,0"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text=" Oreo || Free cheat" VerticalAlignment="Top" Width="114" Height="21" Foreground="White" Margin="0,5,0,0" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="  Oreo || Free cheat" VerticalAlignment="Top" Width="117" Height="21" Foreground="White" Margin="0,5,0,0" FontSize="14"/>
     </Grid>
 </Window>

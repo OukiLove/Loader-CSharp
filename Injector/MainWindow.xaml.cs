@@ -29,6 +29,7 @@ namespace Injector
 
         private void Load_Button(object sender, RoutedEventArgs e)
         {
+            Inject.ReferenceEquals(this, sender);
             //Открытие кс
             //Скачка длл
             //Инжект длл
